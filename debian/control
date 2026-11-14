@@ -1,0 +1,12 @@
+Source: ros-humble-mocap4r2-vicon-driver
+Section: misc
+Priority: optional
+Maintainer: "Francisco Martín Rico" <fmrico@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libasio-dev, ros-humble-ament-cmake, ros-humble-ament-cmake-copyright <!nocheck>, ros-humble-ament-cmake-cppcheck <!nocheck>, ros-humble-ament-cmake-cpplint <!nocheck>, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-cmake-lint-cmake <!nocheck>, ros-humble-ament-cmake-uncrustify <!nocheck>, ros-humble-ament-cmake-xmllint <!nocheck>, ros-humble-mocap4r2-control, ros-humble-mocap4r2-interfaces, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-ros-workspace
+Homepage: https://mocap4ros2-project.github.io
+Standards-Version: 3.9.2
+
+Package: ros-humble-mocap4r2-vicon-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-launch, ros-humble-launch-ros, ros-humble-launch-yaml, ros-humble-mocap4r2-control, ros-humble-mocap4r2-interfaces, ros-humble-mocap4r2-marker-viz, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-ros-workspace
+Description: MOCAP4ROS2 driver for Vicon systems (Nexus, Tracker, Shogun), built on the Vicon DataStream SDK 1.13
