@@ -1,0 +1,12 @@
+Source: ros-lyrical-mocap4r2-vicon-driver
+Section: misc
+Priority: optional
+Maintainer: "Francisco Martín Rico" <fmrico@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libasio-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-copyright <!nocheck>, ros-lyrical-ament-cmake-cppcheck <!nocheck>, ros-lyrical-ament-cmake-cpplint <!nocheck>, ros-lyrical-ament-cmake-gtest <!nocheck>, ros-lyrical-ament-cmake-lint-cmake <!nocheck>, ros-lyrical-ament-cmake-uncrustify <!nocheck>, ros-lyrical-ament-cmake-xmllint <!nocheck>, ros-lyrical-mocap4r2-control, ros-lyrical-mocap4r2-interfaces, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-ros-workspace
+Homepage: https://mocap4ros2-project.github.io
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-mocap4r2-vicon-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-launch-yaml, ros-lyrical-mocap4r2-control, ros-lyrical-mocap4r2-interfaces, ros-lyrical-mocap4r2-marker-viz, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-ros-workspace
+Description: MOCAP4ROS2 driver for Vicon systems (Nexus, Tracker, Shogun), built on the Vicon DataStream SDK 1.13
